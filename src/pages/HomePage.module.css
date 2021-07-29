@@ -1,3 +1,23 @@
+
+.header{
+    border: 1px solid #EEEDE9;
+}
+.title,.btns{
+    color: #007AFF;
+    padding: 10px 5%; 
+}
+.btn{
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+    pointer-events: all;
+}
+.btn:hover{
+    transform: scale(1.5);
+}
+.icon-add{
+    font-weight: bold;
+}
 .content{
     padding: 10px 5%; 
     margin-bottom: 20px;
@@ -68,4 +88,32 @@
 }
 .add{
     /* background-color: blue; */
+}
+.noDisplay{
+    visibility: hidden;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 15px 5%; 
+    border-top: 1px solid #EEEDE9;
+    background-color: #fff;
+}
+.item{
+    flex: 1;
+    text-align: center;
+    background-color: #fff;
+    border: none;
+    outline: none;
+}
+.item:hover{
+    transform: scale(1.5);
+}
+.item-on-btn{
+    cursor: pointer;
+}
+.item-hover-btn:hover{
+    color: #9266F9;
 }
