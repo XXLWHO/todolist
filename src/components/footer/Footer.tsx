@@ -6,24 +6,24 @@ export const Footer:React.FC = ()=>{
         <div className ={styles.footer}>
         <div className="f-a-sa ">
                     <div className ={styles.item}>
-                        <span>
-                           <i className="iconfont">&#xe81c;</i> 
+                        <span className={styles["item-on-btn"]}>
+                           <i className={[`iconfont ${styles["item-hover-btn"]}`]}>&#xe81c;</i> 
                         </span>
                     </div>
                     <div className ={styles.item}>
-                        <span>
-                            <i className="iconfont">
+                        <span className={styles["item-on-btn"]}>
+                            <i className={[`iconfont ${styles["item-hover-btn"]}`]}>
                             &#xe60f;
                             </i>
                         </span>
                     </div>
-                    <div className ={styles.item}>
-                        <span>
-                        <i className="iconfont">
+                    <button className ={styles.item}>
+                        <span className={styles["item-on-btn"]}>
+                        <i className={[`iconfont ${styles["item-hover-btn"]}`]}>
                         &#xe710;
                         </i>
                         </span>
-                    </div>
+                    </button>
             </div>
         </div>
         </>

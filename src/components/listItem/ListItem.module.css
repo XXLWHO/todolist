@@ -1,0 +1,71 @@
+.content{
+    padding: 10px 5%; 
+    margin-bottom: 20px;
+    border-bottom: 1px solid #E2E2E2;
+}
+.status{
+    margin-right: 10px;
+}
+.remarks{
+    white-space:nowrap;
+    text-overflow: ellipsis;
+    width: 300px;
+    overflow: hidden;
+    font-size: 12px;
+    color: #a19f9f;
+
+}
+.time{
+    font-size: 12px;
+    font-weight: bold;
+}
+.th-title{
+    padding-bottom: 20px;
+    color:#5B626A;
+    text-align:left;
+}
+.select{
+    border: none;
+    padding: 3px 5px;
+    outline: none;
+}
+.showInput{
+    padding-top: 10px;
+}
+.input{
+    border:1px solid #E6E6E6;
+    padding: 5px ;
+    outline: none;
+    border-radius: 5px;
+    font-size: 13px;
+    color: #272727;
+}
+.input:disabled{
+    background-color: #fff;
+    border: none;
+}
+.input:focus{
+    border:1px solid #007AFF;
+}
+.btn{
+    border: none;
+    outline: none;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right:  5px;
+    cursor: pointer;
+}
+.btn:hover{
+    box-shadow: 0 0 10px #bebebe;
+}
+.list-item td{
+    padding: 5px  0;
+    border-bottom: 1px solid #E2E2E2;
+}
+.list-item td:last-child{
+    border-bottom: none;
+}
+.add{
+    /* background-color: blue; */
+}

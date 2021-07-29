@@ -9,6 +9,11 @@
 .btn{
     border: none;
     background-color: #fff;
+    cursor: pointer;
+    pointer-events: all;
+}
+.btn:hover{
+    transform: scale(1.5);
 }
 .icon-add{
     font-weight: bold;

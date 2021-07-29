@@ -9,7 +9,7 @@ interface propsType {
 export const PopWindow:React.FC<propsType>=({title,time,remarks,priority})=>{
     return (
         <>
-            <div>
+            <div style={{}}>
                 <div className ={styles.pop}></div>
                 <div className ="f-j" >
                      <div className ={styles["content-box"]} style={{position:"relative"}}>
