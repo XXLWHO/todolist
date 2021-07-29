@@ -86,9 +86,6 @@
 .list-item td:last-child{
     border-bottom: none;
 }
-.add{
-    /* background-color: blue; */
-}
 .noDisplay{
     visibility: hidden;
 }

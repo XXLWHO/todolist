@@ -223,9 +223,9 @@ import styles from "./HomePage.module.css";
                                                 
                                                </td>
                                             <td>
-                                            {this.state.type == "wait"?
+                                            {/* {this.state.type == "wait"?
                                                 <input type="button" className={styles.btn} style={{ backgroundColor: "#FEBD2E" }} value="更改" onClick={()=>this.changeItem(key)}/>:""
-                                                }
+                                                } */}
                                                 {this.state.type == "wait"?
                                                 <input type="button" className={styles.btn} style={{ backgroundColor: "#27C841" }} value="完成" onClick={()=>this.finishItem(key)}/>:""
                                                 }
